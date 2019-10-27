@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMLTest", "AutoMLTest\AutoMLTest.csproj", "{14DAB064-C6DC-4325-B908-5F7F4AA72800}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{301F78D6-B00A-46A7-B7A9-FF64A990A17A}"
+	ProjectSection(SolutionItems) = preProject
+		..\Data\sentiment-analysis-wiki-250-line-data.tsv = ..\Data\sentiment-analysis-wiki-250-line-data.tsv
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMLTestML.Model", "AutoMLTestML.Model\AutoMLTestML.Model.csproj", "{D040BE05-AF5E-4F91-AB58-32CC05E54B8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMLTestML.ConsoleApp", "AutoMLTestML.ConsoleApp\AutoMLTestML.ConsoleApp.csproj", "{E849DE35-63BC-41CC-A5E6-623BB5CFDB52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14DAB064-C6DC-4325-B908-5F7F4AA72800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DAB064-C6DC-4325-B908-5F7F4AA72800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DAB064-C6DC-4325-B908-5F7F4AA72800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DAB064-C6DC-4325-B908-5F7F4AA72800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D040BE05-AF5E-4F91-AB58-32CC05E54B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D040BE05-AF5E-4F91-AB58-32CC05E54B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D040BE05-AF5E-4F91-AB58-32CC05E54B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D040BE05-AF5E-4F91-AB58-32CC05E54B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E849DE35-63BC-41CC-A5E6-623BB5CFDB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E849DE35-63BC-41CC-A5E6-623BB5CFDB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E849DE35-63BC-41CC-A5E6-623BB5CFDB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E849DE35-63BC-41CC-A5E6-623BB5CFDB52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0693A609-AF7B-4F1E-93DA-2343763875E6}
+	EndGlobalSection
+EndGlobal
